@@ -18,7 +18,7 @@ class UI{
     // painting all UI elements based on response
     paint(resp){
         // getting the corresponding weather icone url from openweathermap
-        let wicon = `http://openweathermap.org/img/w/${resp.weather[0].icon}.png`
+        let wicon = `https://openweathermap.org/img/w/${resp.weather[0].icon}.png`
         this.icon.setAttribute('src', wicon)
 
         this.description.textContent = resp.weather[0].description;

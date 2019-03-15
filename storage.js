@@ -9,8 +9,8 @@ class Storage{
     }
     get(){
         // checking if there is pre storaged values, if not assigning them to defaults
-        let city = (localStorage.city === null? this.defaultCity : localStorage.city)
-        let country = (localStorage.country === null? this.defaultCountry : localStorage.country)
+        let city = (localStorage.city ? localStorage.city : this.defaultCity )
+        let country = (localStorage.country ? localStorage.country : this.defaultCountry)
         let location = {'city':city, 'country':country};
         return location;  
     }
