@@ -1,18 +1,18 @@
 class UI{
     constructor(){
         // geting all UI elements
-        this.location = document.querySelector('#w-location');
-        this.icon = document.querySelector('#w-icon');
-        this.description = document.querySelector('#w-desc');
-        this.temp = document.querySelector('#w-temp');
-        this.humidity = document.querySelector('#w-humidity');
-        this.wind = document.querySelector('#w-wind');
-        this.clouds = document.querySelector('#w-clouds');
-        this.rain = document.querySelector('#w-rain');
-        this.city = document.querySelector('#city');
-        this.country = document.querySelector('#country');
-        this.changeLoc = document.querySelector('#w-change-btn');
-        this.modal = document.querySelector('#locModal');
+        this.location = document.getElementById('w-location');
+        this.icon = document.getElementById('w-icon');
+        this.description = document.getElementById('w-desc');
+        this.temp = document.getElementById('w-temp');
+        this.humidity = document.getElementById('w-humidity');
+        this.wind = document.getElementById('w-wind');
+        this.clouds = document.getElementById('w-clouds');
+        this.rain = document.getElementById('w-rain');
+        this.city = document.getElementById('city');
+        this.country = document.getElementById('country');
+        this.changeLoc = document.getElementById('w-change-btn');
+        this.modal = document.getElementById('locModal');
          
     }
     // painting all UI elements based on response
